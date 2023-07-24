@@ -1,0 +1,8 @@
+<div class="row">
+    <div class="col-md-5">
+        <app-books-list (itemSelected)="onItemSelect($event)"></app-books-list>
+    </div>
+    <div class="col-md-7">
+        <app-books-detail [book]="bookSelected"></app-books-detail>
+    </div>
+</div>

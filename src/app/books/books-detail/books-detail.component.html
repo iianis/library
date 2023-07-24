@@ -1,0 +1,75 @@
+<div class="row">
+    <div class="col-sm-5">
+        <label for="name">Name</label>
+        <input type="text" id="name" class="form-control" [value]="book?.name">
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm-5">
+        <label for="description">Description</label>
+        <textarea name="description" id="description" cols="30" rows="5" class="form-control"
+            [value]="book?.description"></textarea>
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm-5">
+        <label for="price">Price</label>
+        <input type="text" id="price" class="form-control" [value]="book?.price">
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm-5">
+        <label for="edition">Edition#</label>
+        <input type="text" id="edition" class="form-control" [value]="book?.edition">
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm-5">
+        <label for="isbn">ISBN#</label>
+        <input type="text" id="isbn" class="form-control" [value]="book?.isbn">
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm-5">
+        <label for="publisher">Publisher</label>
+        <input type="text" id="publisher" class="form-control" [value]="book?.publisher">
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm-5">
+        <label for="published">Published Year</label>
+        <input type="text" id="published" class="form-control" [value]="book?.published">
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm-5">
+        <label for="supplier">Supplier</label>
+        <input type="text" id="supplier" class="form-control" [value]="book?.supplier">
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm-7">
+        <label for="author">Author</label>
+        <div class="row">
+            <div class="col-sm-5">
+                <div class="btn-group" id="author">
+                    <button type="button" class="btn btn-primary dropdown-toggle">
+                        Manage Book <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Item 1</a></li>
+                        <li><a href="#">Item 2</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<hr>
+<div class="row">
+    <div class="col-xs-12">
+        <button class="btn btn-success" type="button" style="">Add</button>
+        <button class="btn btn-danger" type="button">Delete</button>
+        <button class="btn btn-primary" type="button">Clear</button>
+    </div>
+</div>
